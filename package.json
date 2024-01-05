@@ -1,7 +1,7 @@
 {
-  "name": "@sqlite.org/sqlite-wasm",
-  "version": "3.44.2-build1",
-  "description": "SQLite Wasm conveniently wrapped as an ES Module.",
+  "name": "@libsql/libsql-wasm",
+  "version": "0.0.1",
+  "description": "libSQL Wasm packaged as an ES module.",
   "keywords": [
     "sqlite",
     "sqlite3",
@@ -44,14 +44,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sqlite/sqlite-wasm.git"
+    "url": "git+https://github.com/tursodatabase/libsql-wasm.git"
   },
   "author": "Thomas Steiner (tomac@google.com)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/sqlite/sqlite-wasm/issues"
+    "url": "https://github.com/tursodatabase/libsql-wasm/issues"
   },
-  "homepage": "https://github.com/sqlite/sqlite-wasm#readme",
+  "homepage": "https://github.com/tursodatabase/libsql-wasm#readme",
   "devDependencies": {
     "cheerio": "^1.0.0-rc.12",
     "decompress": "^4.2.1",
