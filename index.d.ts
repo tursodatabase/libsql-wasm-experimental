@@ -1145,6 +1145,8 @@ declare class Database {
 
   /** Instance method version of {@link checkRc()}. */
   checkRc: (resultCode: number) => this;
+
+  getAutoCommit(): number;
 }
 
 /**
@@ -4971,6 +4973,18 @@ declare type CAPI = {
    * See https://www.sqlite.org/c3ref/context_db_handle.html
    */
   sqlite3_context_db_handle: (ctx: WasmPointer) => WasmPointer;
+
+  /**
+   * Returns non-zero if database connection is in autocommit mode; otherwise
+   * returns zero.
+   *
+   * C Signature:
+   *
+   *     int sqlite3_get_autocommit(sqlite3*);
+   *
+   * See https://www.sqlite.org/c3ref/get_autocommit.html
+   */
+  sqlite3_get_autocommit: (db: Database | WasmPointer) => number;
 
   /**
    * Returns a pointer to the metadata associated by the
