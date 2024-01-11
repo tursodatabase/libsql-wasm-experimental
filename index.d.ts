@@ -1146,7 +1146,7 @@ declare class Database {
   /** Instance method version of {@link checkRc()}. */
   checkRc: (resultCode: number) => this;
 
-  getAutoCommit(): number;
+  getAutocommit(): number;
 }
 
 /**
