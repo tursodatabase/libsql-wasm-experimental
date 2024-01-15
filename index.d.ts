@@ -1147,6 +1147,8 @@ declare class Database {
   checkRc: (resultCode: number) => this;
 
   getAutocommit(): number;
+
+  lastInsertRowid(): number;
 }
 
 /**
