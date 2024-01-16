@@ -1,5 +1,5 @@
 {
-  "name": "@libsql/libsql-wasm",
+  "name": "@libsql/libsql-wasm-experimental",
   "version": "0.0.1",
   "description": "libSQL Wasm packaged as an ES module.",
   "keywords": [
