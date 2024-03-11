@@ -8183,6 +8183,7 @@ globalThis.sqlite3ApiBootstrap.initializers.push(function(sqlite3){
     ["sqlite3_finalize", "int", "sqlite3_stmt*"],
     ["sqlite3_free", undefined,"*"],
     ["sqlite3_get_auxdata", "*", "sqlite3_context*", "int"],
+    ["sqlite3_get_autocommit", "int", "sqlite3*"],
     ["sqlite3_initialize", undefined],
     
     ["sqlite3_keyword_count", "int"],
