@@ -28,7 +28,8 @@ There are three ways to use SQLite Wasm:
 - [in the main thread](#in-the-main-thread-without-opfs)
 
 SQLite can be loaded in any thread, but the origin private file system (OPFS) storage
-back-end is only available when it is loaded in a worker thread.
+back-end is only available when it is loaded in a worker thread in a
+[secure context](https://developer.mozilla.org/docs/Web/Security/Secure_Contexts).
 
 ### In a wrapped worker (with OPFS if available):
 
