@@ -1,6 +1,6 @@
 {
   "name": "@libsql/libsql-wasm-experimental",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "libSQL Wasm packaged as an ES module.",
   "keywords": [
     "sqlite",
